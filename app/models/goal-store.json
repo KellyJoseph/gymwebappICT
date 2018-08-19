@@ -1,0 +1,36 @@
+{
+  "goalCollection": [
+    {
+      "id": "d6fc7be6-bdff-4932-9216-8aa86c59740d",
+      "userid": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "date": "2018-03-02T11:36:59.506Z",
+      "category": "weight",
+      "target": "60",
+      "status": "failed"
+    },
+    {
+      "id": "9c567349-66c9-4029-ae97-23c37a178799",
+      "userid": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "date": "2018-11-02T11:37:23.494Z",
+      "category": "weight",
+      "target": "70",
+      "status": "passed"
+    },
+    {
+      "id": "f3d829d2-ce43-46e8-9778-3a640649c593",
+      "userid": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "date": "2018-11-02T11:37:42.659Z",
+      "category": "weight",
+      "target": "60",
+      "status": "passed"
+    },
+    {
+      "id": "4d04a8c7-3c69-4bd5-841d-2bead5eaf3c7",
+      "userid": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "date": "2021-04-03T11:39:30.732Z",
+      "category": "weight",
+      "target": "60",
+      "status": "tbd"
+    }
+  ]
+}

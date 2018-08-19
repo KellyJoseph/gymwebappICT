@@ -1,0 +1,36 @@
+<h3>
+Goals
+</h3>
+<table class ="ui fixed table">
+    <thead>
+    <tr>
+      <th>Target Date</th>
+      <th>Category</th>
+      <th>Target</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+  
+  {{#each goals}}
+    <tbody>
+    <tr>
+      <td>
+        {{date}}
+      </td>
+      <td>
+        {{category}}
+      </td>
+      <td>
+        {{target}}
+      </td>
+      <td>
+         {{status}}    
+      </td>
+      <td>
+        <a href="/trainerdashboard/deletegoal/{{id}}"> <i class="large trash alternate icon"></i>
+        </a>
+      </td>
+  </tbody>
+  {{/each}}
+</table>

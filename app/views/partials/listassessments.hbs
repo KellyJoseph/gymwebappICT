@@ -1,0 +1,60 @@
+
+<h3>
+  Assessments
+</h3>
+<table class ="ui fixed table">
+    <thead>
+    <tr>
+      <th>Date and Time</th>
+      <th>Weight (kg)</th>
+      <th>Chest (cm)</th>
+      <th>Thigh (cm)</th>
+      <th>Upper Arm (cm)</th>
+      <th>Waist (cm)</th>
+      <th>Hips (cm)</th>
+      <th>Trend</th>
+      <th>Feedback</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+  {{#each assessments}}
+    <tbody>
+    <tr>
+      <td>
+        {{date}}
+      </td>
+      <td>
+        {{weight}}
+      </td>
+      <td>
+        {{chest}}
+      </td>
+      <td>
+        {{thigh}}
+      </td>
+      <td>
+        {{upperArm}}
+      </td>
+      <td>
+        {{waist}}
+      </td>
+      <td>
+        {{hips}}
+      </td>
+      <td>
+        {{#if trend}}
+        <a class ="ui blue tag label"></a>
+        {{else}}
+        <a class ="ui red tag label"></a>
+        {{/if}}
+      </td>
+      <td>
+        {{comment}}
+      </td>
+      <td>
+        <a href="/dashboard/deleteassessment/{{id}}"> <i class="large trash alternate icon"></i>
+        </a>
+      </td>
+  </tbody>
+  {{/each}}
+</table>

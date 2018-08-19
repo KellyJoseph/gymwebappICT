@@ -1,0 +1,28 @@
+<section class="ui raised segment">
+    <header class="ui header">
+    {{user.firstName}} {{user.lastName}}'s Statistics
+    </header>
+    <table class ="ui fixed table">
+        <thead>
+        <td>
+        Member <i class="huge user icon"></i> {{user.firstName}} {{user.lastName}}
+        </td>
+        <td>
+            BMI <i class="huge heartbeat icon"></i> {{bmi}}
+        </td>
+        <td>
+          Ideal Weight
+          {{#if isIdealWeight}}      
+          <i class ="ui huge blue dashboard icon"></i>
+          {{else}}
+          <i class ="ui huge red dashboard icon"></i>    
+          {{/if}}
+        </td>
+        <td>
+            BMI Category <i class="huge doctor icon"></i> {{bmiCategory}}
+        </td>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</section>
