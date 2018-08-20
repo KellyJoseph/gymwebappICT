@@ -1,0 +1,36 @@
+<section class="ui segment">
+    <h2 class="ui header">
+        All Known Members in the Database:
+    </h2>
+
+
+    <table class="ui fixed table">
+        <thead>
+        <tr>
+            <th>Member first name</th>
+            <th>Member email</th>
+            <th>View Assessments</th>
+            <th>Delete Member</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {{#each members}}
+        <tr>
+            <td>
+            {{firstName}}
+            </td>
+            <td>
+            {{email}}
+            </td>
+            <td>
+                <a href="/viewuser/viewselecteduser/{{id}}"> <i class ="huge folder open icon"></i> </a>
+          </td>
+            <td>
+                <a href="/trainerdashboard/removeuser/{{id}} " class ="ui medium red button">Delete account</a></td>  </a></td>
+            </td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</section>

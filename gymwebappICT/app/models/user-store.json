@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "height": 1.74,
+      "bmi": 21,
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "firstName": "Homer",
+      "weight": "65",
+      "gender": "M"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "gender": "F",
+      "height": "1.73",
+      "weight": "0",
+      "bmi": "0",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Kelly",
+      "email": "joemickkelly@yahoo.com",
+      "password": "secret",
+      "gender": "M",
+      "height": "1.73",
+      "weight": "",
+      "bmi": 0,
+      "id": "fd644270-6fe5-4c95-9e1c-cb0134a6cef0"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Kelly",
+      "email": "james@kelly.com",
+      "password": "secret",
+      "gender": "M",
+      "height": "1.73",
+      "weight": "70",
+      "bmi": 23,
+      "id": "e8d1e4c4-b0a9-4d66-afb9-66381a67c9b0"
+    },
+    {
+      "firstName": "Spongebob",
+      "lastName": "Squarepants",
+      "email": "sponge@bob.com",
+      "password": "secret",
+      "height": "1.73",
+      "gender": "M",
+      "bmi": 23,
+      "id": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "weight": "70"
+    }
+  ]
+}

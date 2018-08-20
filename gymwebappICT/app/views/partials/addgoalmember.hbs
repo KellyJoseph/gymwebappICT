@@ -1,0 +1,117 @@
+<h3>
+  Add Goal
+</h3>
+<form class="ui stacked segment form" action="/dashboard/addgoal/{{user.id}}" method="POST">
+  <div class="four fields">
+        
+    <div class ="field">
+             <label>Year</label>
+     <div class="search selection ui dropdown">
+  <input type="hidden" name="year">
+  <i class="dropdown icon"></i>
+  <div class="default text">Deadline Year</div>
+  <div class="menu">
+    <div class="item" data-value= 2018 >2018</div>
+    <div class="item" data-value= 2019 >2019</div>
+    <div class="item" data-value= 2020 >2020</div>
+    <div class="item" data-value= 2021 >2021</div>
+    <div class="item" data-value= 2022 >2022</div>  
+  </div>
+</div> 
+    </div>
+    
+        <div class ="field">
+                 <label>Month</label>
+     <div class="search selection ui dropdown">
+  <input type="hidden" name="month">
+  <i class="dropdown icon"></i>
+  <div class="default text">Deadline Month</div>
+  <div class="menu">
+    <div class="item" data-value= 01 >01</div>
+    <div class="item" data-value= 02 >02</div>
+    <div class="item" data-value= 03 >03</div>
+    <div class="item" data-value= 04 >04</div>
+    <div class="item" data-value= 05 >05</div>
+    <div class="item" data-value= 06 >06</div>  
+    <div class="item" data-value= 07 >07</div>
+    <div class="item" data-value= 08 >08</div>
+    <div class="item" data-value= 09 >09</div>
+    <div class="item" data-value= 10 >10</div>
+    <div class="item" data-value= 11 >11</div>
+    <div class="item" data-value= 12 >12</div> 
+  </div>
+</div> 
+    </div>
+        
+             <div class ="field">
+                   <label>Day</label>
+    <div class="search selection ui dropdown">
+  <input type="hidden" name="day">
+  <i class="search selection dropdown icon"></i>
+  <div class="default text">Deadline Day</div>
+  <div class="menu">
+    <div class="item" data-value= 01 >01</div>
+    <div class="item" data-value= 02 >02</div>
+    <div class="item" data-value= 03 >03</div>
+    <div class="item" data-value= 04 >04</div>
+    <div class="item" data-value= 05 >05</div>
+    <div class="item" data-value= 06 >06</div>  
+    <div class="item" data-value= 07 >07</div>
+    <div class="item" data-value= 08 >08</div>
+    <div class="item" data-value= 09 >09</div>
+    <div class="item" data-value= 10 >10</div>
+    <div class="item" data-value= 11 >11</div>
+    <div class="item" data-value= 12 >12</div> 
+    <div class="item" data-value= 13 >13</div>
+    <div class="item" data-value= 14 >14</div>
+    <div class="item" data-value= 15 >15</div>
+    <div class="item" data-value= 16 >16</div>
+    <div class="item" data-value= 17 >17</div>
+    <div class="item" data-value= 18 >18</div>  
+    <div class="item" data-value= 19 >19</div>
+    <div class="item" data-value= 20 >20</div>
+    <div class="item" data-value= 21 >21</div>
+    <div class="item" data-value= 22 >22</div>
+    <div class="item" data-value= 23 >23</div>
+    <div class="item" data-value= 24 >24</div> 
+    <div class="item" data-value= 25 >25</div>
+    <div class="item" data-value= 26 >26</div>
+    <div class="item" data-value= 27 >27</div>
+    <div class="item" data-value= 28 >28</div>
+    <div class="item" data-value= 29 >29</div>
+    <div class="item" data-value= 30 >30</div>  
+    <div class="item" data-value= 31 >31</div>
+  </div>
+</div> 
+    </div>
+    
+        <div class ="field">
+                <label>Category</label>
+    <div class="search selection ui dropdown">
+  <input type="hidden" name="category">
+  <i class="dropdown icon"></i>
+  <div class="default text">Category</div>
+  <div class="menu">
+    <div class="item" data-value="weight">Weight</div>
+    <div class="item" data-value="waist">Waist</div>
+    <div class="item" data-value="chest">Chest</div>
+    <div class="item" data-value="thigh">Thigh</div>
+    <div class="item" data-value="upperArm">Upper Arm</div>
+    <div class="item" data-value="hips">Hips</div>  
+  </div>
+</div> 
+    </div>
+  
+  <div class="field">
+           <label>Target</label>
+            <input placeholder="Goal" type="number" name="target">
+        </div>
+    
+  </div>
+  <button class="ui green submit button">Add Goal</button>
+</form>
+
+<script>
+$('.ui.dropdown').dropdown();
+</script>
+
