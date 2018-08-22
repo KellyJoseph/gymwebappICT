@@ -94,7 +94,7 @@ const dashboard = {
       date:  date,
       category: request.body.category,
       target: request.body.target,
-      status: "tbd",
+      status: "open",
     };
     logger.debug('Creating a new Goal', newGoal);
     goalStore.addGoal(newGoal);

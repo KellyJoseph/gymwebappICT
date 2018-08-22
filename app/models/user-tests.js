@@ -158,82 +158,82 @@ const userTests = {
       case  "weight":
             logger.info('got as far as the switch case');
         logger.info('category = ', userGoals[i].category, 'userGoals target = ', userGoals[i].target, ', latestAssessment weight =', latestAssessment.weight, ', latestAssessment date =', latestAssessment.date, ', and userGoal date =', userGoals[i].date);
-        if ((userGoals[i].status !== "failed") &&(latestAssessment.weight > 0)&&(latestAssessment.weight <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
+        if ((userGoals[i].status !== "missed") &&(latestAssessment.weight > 0)&&(latestAssessment.weight <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
         {
-          userGoals[i].status = "passed";
+          userGoals[i].status = "achieved";
           logger.info('latest assessment weight', latestAssessment.weight, 'is less than goal weight', userGoals[i].target, 'latest Assessment date is less than goal date');
           break;
         }
-        else if ((userGoals[i].status !== "passed")&&(latestAssessment.date.getTime() > userGoals[i].date))
+        else if ((userGoals[i].status !== "achieved")&&(latestAssessment.date.getTime() > userGoals[i].date))
         {
-          userGoals[i].status = "failed";
+          userGoals[i].status = "missed";
           break;
         }
         else 
         break;
         case "waist":
-        if ((userGoals[i].status !== "failed") &&(latestAssessment.waist > 0)&&(latestAssessment.waist <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
+        if ((userGoals[i].status !== "missed") &&(latestAssessment.waist > 0)&&(latestAssessment.waist <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
         {
-          userGoals[i].status = "passed";
+          userGoals[i].status = "achieved";
           break;
         }
-         else if ((userGoals[i].status !== "passed")&&(latestAssessment.date.getTime() > userGoals[i].date))
+         else if ((userGoals[i].status !== "achieved")&&(latestAssessment.date.getTime() > userGoals[i].date))
         {
-          userGoals[i].status = "failed";
+          userGoals[i].status = "missed";
           break;
         }
         else 
         break;
         case "chest":
-        if ((userGoals[i].status !== "failed") &&(latestAssessment.chest > 0)&&(latestAssessment.chest <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
+        if ((userGoals[i].status !== "missed") &&(latestAssessment.chest > 0)&&(latestAssessment.chest <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
         {
-          userGoals[i].status ="passed";
+          userGoals[i].status ="achieved";
           break;
         }
-         else if ((userGoals[i].status !== "passed")&&(latestAssessment.date.getTime() > userGoals[i].date))
+         else if ((userGoals[i].status !== "acheieved")&&(latestAssessment.date.getTime() > userGoals[i].date))
         {
-          userGoals[i].status = "failed";
+          userGoals[i].status = "missed";
           break;
         }
         else
         break;
         case "upperArm":
-        if ((userGoals[i].status !== "failed") &&(latestAssessment.upperArm > 0)&&(latestAssessment.upperArm <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
+        if ((userGoals[i].status !== "missed") &&(latestAssessment.upperArm > 0)&&(latestAssessment.upperArm <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
         {
-          userGoals[i].status ="passed";
+          userGoals[i].status ="achieved";
           break;
         }
-         else if ((userGoals[i].status !== "passed")&&(latestAssessment.date.getTime() > userGoals[i].date))
+         else if ((userGoals[i].status !== "achieved")&&(latestAssessment.date.getTime() > userGoals[i].date))
         {
-          userGoals[i].status = "failed";
+          userGoals[i].status = "missed";
           break;
         }
         else
         break;
 
         case "thigh":
-        if ((userGoals[i].status !== "failed") &&(latestAssessment.thigh > 0)&&(latestAssessment.thigh <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
+        if ((userGoals[i].status !== "missed") &&(latestAssessment.thigh > 0)&&(latestAssessment.thigh <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
         {
-          userGoals[i].status ="passed";
+          userGoals[i].status ="achieved";
           break;
         }
-         else if ((userGoals[i].status !== "passed")&&(latestAssessment.date.getTime() > userGoals[i].date))
+         else if ((userGoals[i].status !== "achieved")&&(latestAssessment.date.getTime() > userGoals[i].date))
         {
-          userGoals[i].status = "failed";
+          userGoals[i].status = "missed";
           break;
         }
         else
         break;
 
       case "hips":
-        if ((userGoals[i].status !== "failed") &&(latestAssessment.hips > 0) && (latestAssessment.hips <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
+        if ((userGoals[i].status !== "missed") &&(latestAssessment.hips > 0) && (latestAssessment.hips <= userGoals[i].target) && (latestAssessment.date.getTime() <= userGoals[i].date.getTime()))
         {
-          userGoals[i].status = "passed";
+          userGoals[i].status = "achieved";
           break;
         }
-         else if ((userGoals[i].status !== "passed")&&(latestAssessment.date.getTime() > userGoals[i].date))
+         else if ((userGoals[i].status !== "achieved")&&(latestAssessment.date.getTime() > userGoals[i].date))
         {
-          userGoals[i].status = "failed";
+          userGoals[i].status = "missed";
           break;
         }
         else

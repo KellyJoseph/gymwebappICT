@@ -25,6 +25,43 @@
       "hips": "32",
       "comment": "nothing yet",
       "trend": true
+    },
+    {
+      "id": "781ccf17-d10e-470c-9493-db55809e1cbe",
+      "userid": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "date": "2018-08-20T05:21:41.424Z",
+      "weight": "60",
+      "waist": "32",
+      "chest": "36",
+      "upperArm": "5",
+      "thigh": "13",
+      "hips": "32",
+      "comment": "hey!"
+    },
+    {
+      "id": "1beb9858-ec91-4e34-811d-0abe0bc90deb",
+      "userid": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "date": "2018-08-20T05:32:06.373Z",
+      "weight": "65",
+      "waist": "30",
+      "chest": "30",
+      "upperArm": "3",
+      "thigh": "3",
+      "hips": "30",
+      "comment": "nothing yet",
+      "trend": true
+    },
+    {
+      "id": "273649f4-0cc3-4571-b794-df72182a7c0f",
+      "userid": "11d5d4e4-fe00-4441-974d-a9f5767af025",
+      "date": "2018-08-20T05:33:24.157Z",
+      "weight": "60",
+      "waist": "30",
+      "chest": "30",
+      "upperArm": "5",
+      "thigh": "3",
+      "hips": "30",
+      "comment": "nothing yet"
     }
   ]
 }
